@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.app__root {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tree__node {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.tree__node__children {
+  display: flex;
+  width: 750px;
+}
+
+.tree__node--parents {
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 25px 0px;
+}
+
+.tree__node--pink {
+  background-color: lightpink;
+}
+
+.tree__node--blue {
+  background-color: lightblue;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
